@@ -1901,6 +1901,7 @@ for i=1 ,(150) do
 msgs_id = msgs_id+1048576
 table.insert(Msgs,msgs_id)
 end
+
 tdcli_function ({ID = "GetMessages",chat_id_ = msg.chat_id_,message_ids_ = Msgs},function(arg,data);
     MsgsDel = {};for i=0 ,data.total_count_ do;
         if not data.messages_[i] then;
