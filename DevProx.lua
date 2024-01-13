@@ -10671,7 +10671,7 @@ local text = msg.content_.text_
 local GetMsgPin = DevAbs:get(DevProx..'Abs:PinnedMsgs'..msg.chat_id_)
 if GetMsgPin ~= nil then
 if text == GetMsgPin then
-tdcli_function ({ID = "PinChannelMessage",channel_id_ = msg.chat_id_:gsub('-100',''),message_id_ = msg.id_,disable_notification_ = 0},function(arg,dp) if dp.ID == 'Ok' thenDevAbs:del(DevProx..'Abs:PinnedMsgs'..msg.chat_id_);end;end,nil)   
+tdcli_function ({ID = "PinChannelMessage",channel_id_ = msg.chat_id_:gsub('-100',''),message_id_ = msg.id_,disable_notification_ = 0},function(arg,dp) if dp.ID == 'Ok' then DevAbs:del(DevProx..'Abs:PinnedMsgs'..msg.chat_id_);end;end,nil)   
 elseif (msg.content_.sticker_) then 
 if GetMsgPin == msg.content_.sticker_.sticker_.persistent_id_ then
 tdcli_function ({ID = "PinChannelMessage",channel_id_ = msg.chat_id_:gsub('-100',''),message_id_ = msg.id_,disable_notification_ = 0},function(arg,dp) DevAbs:del(DevProx..'Abs:PinnedMsgs'..msg.chat_id_) end,nil)   
