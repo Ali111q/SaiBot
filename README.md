@@ -1,10 +1,10 @@
 # <p align="center" > تنصيب سورس بروكس
 # <p align="center" > ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 # <p align="center" > ⤈ ↫ كود التنصيب الاول مع المكاتب ↬ ⤈
-# <p align="center" > `git clone https://github.com/DevProxTEAM/DevProx.git;cd DevProx;chmod +x DevProx.sh;./DevProx.sh install`
+# <p align="center" > `git clone https://github.com/ali111q/SaiBot.git;cd DevProx;chmod +x DevProx.sh;./DevProx.sh install`
 # <p align="center" > ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 # <p align="center" > ⤈ ↫ كود التنصيب السريع من دون مكاتب ↬ ⤈
-# <p align="center" > `git clone https://github.com/DevProxTEAM/DevProx.git;cd DevProx;chmod +x DevProx.sh;./DevProx.sh`
+# <p align="center" > `git clone https://github.com/ali111q/SaiBot.git;cd DevProx;chmod +x DevProx.sh;./DevProx.sh`
 # <p align="center" > ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 # <p align="center" > قم بنسخ احدى اكواد التنصيب
 # <p align="center" > والصقه في الترمنال واضغط انتر
