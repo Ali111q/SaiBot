@@ -1933,7 +1933,7 @@ table.insert(Msgs,msgs_id)
 end
 tdcli_function ({ID = "GetMessages",chat_id_ = msg.chat_id_,message_ids_ = Msgs},function(arg,data)MsgsDel = {};
     for i=0 ,data.total_count_ do
-        if not data.messages_[i] thenif not MsgsDel[0] thenMsgsDel[0] = Msgs[i];
+        if not data.messages_[i] thenif not MsgsDel[0] then MsgsDel[0] = Msgs[i];
     end;
     table.insert(MsgsDel,Msgs[i]);
 end;
